@@ -858,22 +858,22 @@ This section specifies a [link relation type](https://tools.ietf.org/html/rfc598
 
 #### Example
 
-	# Task [/tasks/{id}]
+    # Task [/tasks/{id}]
 
-	+ Parameters
-	    + id
+    + Parameters
+        + id
 
-	## Retrieve Task [GET]
+    ## Retrieve Task [GET]
 
-	+ Relation: task
-	+ Response 200
+    + Relation: task
+    + Response 200
 
-	        { ... }
+            { ... }
 
-	## Delete Task [DELETE]
+    ## Delete Task [DELETE]
 
-	+ Relation: delete
-	+ Response 204
+    + Relation: delete
+    + Response 204
 
 ---
 
